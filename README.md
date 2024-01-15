@@ -1,5 +1,7 @@
 # blogstrapi
 
+On utilise  pour ce projet Vue pour le front et Axios pour communiquer avec l'API Strapi coté back
+
 ## Project setup
 ```
 npm install
