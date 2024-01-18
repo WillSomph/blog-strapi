@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s # Par défaut, récupère les cibles toutes les 15 secondes.
+
+scrape_configs:
+  - job_name: 'blogstrapi'
+    static_configs:
+      - targets: ['localhost:1337']
+    metrics_path: '/api/metrics/'  # Spécifie le chemin des métriques pour les articles de l'API
