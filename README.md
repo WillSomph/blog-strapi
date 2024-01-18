@@ -4,6 +4,8 @@ On utilise  pour ce projet Vue pour le front et Axios pour communiquer avec l'AP
 pour executer Prometheus avec un nouveau fichier de configuration :
 
 cd prometheus-2.49.1.windows-amd64
+ensuite :
+
 ./prometheus --config.file=prometheus.yml
 
 ## Project setup
